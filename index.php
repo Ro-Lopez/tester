@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html>
+<html lang="en">
 
 	<head>
 
@@ -16,12 +16,14 @@
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
+<!--		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>-->
+		<!--<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>-->
+<!--		<![endif]-->
 
 		<!-- jQuery v3.0 -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js" type="text/javascript"></script>
+
+		<script src="https://code.jquery.com/jquery-1.10.2.js" type="text/javascript"></script>
 
 		<!-- Waypoints.js -->
 		<script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
@@ -45,6 +47,7 @@
 		<p>This paragraph has a slow, linear fade.</p>
 		<p>This paragraph has a fast animation.</p>
 		<div id="log"></div>
+
 
 
 
