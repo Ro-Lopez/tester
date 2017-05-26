@@ -6,50 +6,120 @@
 
 		<meta charset="utf-8">
 
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-			integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-		<!-- Custom CSS Goes HERE -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+
 		<link rel="stylesheet" href="css/style.css" type="text/css">
 
-		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-<!--		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>-->
-		<!--<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>-->
-<!--		<![endif]-->
-
-		<!-- jQuery v3.0 -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js" type="text/javascript"></script>
-
-		<script src="https://code.jquery.com/jquery-1.10.2.js" type="text/javascript"></script>
-
-		<!-- Waypoints.js -->
-		<script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
-
-		<!-- Custom Waypoints JavaScript File -->
-		<script src="js/custom-waypoints.js" type="text/javascript"></script>
-
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-			  crossorigin="anonymous"></script>
 
 
 		<title>Testing Page</title>
 
 	</head>
 
-	<body class="sfooter">
-
-		<button>fadeToggle p1</button>
-		<button>fadeToggle p2</button>
-		<p>This paragraph has a slow, linear fade.</p>
-		<p>This paragraph has a fast animation.</p>
-		<div id="log"></div>
 
 
 
+	<body>
+
+
+		<section>
+
+		<div class="container-fluid">
+
+			<div class="row">
+
+				<div class="col-4"></div>
+					<div>
+					<p>LLdev</p>
+					</div>
+
+
+				<div class="col-8S">
+
+					<ul>
+
+						<li>
+							<button id="aboutButt">About</button>
+						</li>
+
+						<li>
+							<button id="contactButt">Contact</button>
+						</li>
+
+						<li>
+							<button id="busidevButt">Business Development</button>
+						</li>
+
+						<li>
+							<button id="webdevButt">Web Development</button>
+						</li>
+
+					</ul>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		</section>
+
+
+
+
+		<SECTION>
+
+			<div class="container">
+
+				<div class = "row">
+
+					<div class="col-md-6">
+
+						<div id="aboutContent"> These are facts about me </div>
+
+					</div>
+
+					<div class="col-md-6">
+
+							<div id="webdevContent"> Web development stuff </div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</SECTION>
+
+
+		<SECTION>
+
+			<div class="container">
+
+					<div class="row">
+
+						<div class="col-md-6">
+
+							<div id="busidevContent"> Let me start your business </div>
+
+						</div>
+
+						<div class="col-md-6">
+
+							<div id="contactsContent"> These are my contacts </div>
+
+						</div>
+
+					</div>
+
+			</div>
+
+		</SECTION>
 
 
 
@@ -82,6 +152,61 @@
 
 
 
+
+
+	<script>
+
+		$(document).ready(function() {
+
+			$("#contactsContent").hide();
+			$("#busidevContent").hide();
+			$("#webdevContent").hide();
+			$("#aboutContent").hide();
+
+
+
+			$("#aboutButt").click(function(){
+				$("#busidevContent").hide();
+				$("#contactsContent").hide();
+				$("#webdevContent").hide();
+				$("#titleContent").hide();
+				$("#aboutContent").show(1000);
+
+
+
+			});
+
+
+			$("#webdevButt").click(function(){
+				$("#titleContent").hide();
+				$("#contactsContent").hide();
+				$("#aboutContent").hide();
+				$("#busidevContent").hide();
+				$("#webdevContent").show(1000);
+			});
+
+
+			$("#busidevButt").click(function(){
+				$("#titleContent").hide();
+				$("#contactsContent").hide();
+				$("#aboutContent").hide();
+				$("#webdevContent").hide();
+				$("#busidevContent").show(1000);
+			});
+
+
+			$("#contactButt").click(function(){
+				$("#titleContent").hide();
+				$("#aboutContent").hide();
+				$("#webdevContent").hide();
+				$("#busidevContent").hide();
+				$("#contactsContent").show(1000);
+			});
+
+		});
+
+
+	</script>
 
 
 
