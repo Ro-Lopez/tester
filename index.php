@@ -46,54 +46,79 @@
 
 		<section>
 
-		<nav class="navbar navbar-default">
+			<nav class="navbar navbar-default">
 
-		<div class="container-fluid">
+				<div class="container-fluid">
 
-			<div class="navbar-header">
+					<div class="row">
 
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-
-			</div>
+						<div class="col-12">
 
 
 
+							<div class="navbar-header">
+								<h1>LLdev</h1>
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
 
-				<div class="collapse navbar-collapse" id="main-menu">
+								</div>
 
-					<ul class="nav navbar-nav navbar-left">
 
-						<li>
-							<button id="aboutButt">About</button>
-						</li>
 
-						<li>
-							<button id="contactButt">Contact</button>
-						</li>
 
-						<li>
-							<button id="busidevButt">Business Development</button>
-						</li>
 
-						<li>
-							<button id="webdevButt">Web Development</button>
-						</li>
 
-					</ul>
+
+								<div class="collapse navbar-collapse" id="main-menu">
+
+
+
+									<ul class="nav navbar-nav navbar-right" id="navbar">
+
+
+
+
+
+
+												<li>
+													<button id="aboutButt">About Me</button>
+												</li>
+
+												<li>
+													<button id="contactButt">Contact Me</button>
+												</li>
+
+												<li>
+													<button id="busidevButt">Business Development</button>
+												</li>
+
+												<li>
+													<button id="webdevButt">Web Development</button>
+												</li>
+
+
+
+
+									</ul>
+
+
+
+								</div>
+
+							</div>
+
+						</div>
 
 				</div>
 
-			</div>
 
 
-
-		</nav>
+			</nav>
 
 		</section>
 
