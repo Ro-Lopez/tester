@@ -27,9 +27,10 @@ h1 {
 h2 {
 
 	color: darkblue;
-	text-align: center;
+
 	font-weight: bold;
-	padding-top: 3em;
+	padding-top: 2em;
+	padding-bottom: 2em;
 
 
 }
@@ -80,22 +81,51 @@ h2 {
 
 
 
-#bg {
-	padding-top: 10em;
-	padding-bottom: 50em;
-	position: fixed;
-	top: 5em;
-	left: 0;
-	/* Preserve aspet ratio */
+/*#bg {*/
+	/*padding-top: 10em;*/
+	/*padding-bottom: 50em;*/
+	/*position: fixed;*/
+	/*top: 5em;*/
+	/*left: 0;*/
+	/*!* Preserve aspet ratio *!*/
 
-	min-width: 100%;
-	min-height: 100%;
-}
+	/*min-width: 100%;*/
+	/*min-height: 100%;*/
+/*}*/
 
 
 #aboutContent {
-	padding-top: 5em;
-
-
+	padding: 4rem 4rem 4rem 4rem;
+	border: 3px solid darkblue;
+	color: darkblue;
+	font-weight: bold;
+	line-height: 2rem;
 
 }
+
+#webdevContent {
+	padding: 4rem 4rem 4rem 4rem;
+	border: 3px solid darkblue;
+	color: darkblue;
+	font-weight: bold;
+	line-height: 2rem;
+
+}
+
+#busidevContent {
+	padding: 4rem 4rem 4rem 4rem;
+	border: 3px solid darkblue;
+	color: darkblue;
+	font-weight: bold;
+	line-height: 2rem;
+}
+
+
+#contactsContent {
+	padding: 4rem 4rem 4rem 4rem;
+	border: 3px solid darkblue;
+	color: darkblue;
+	font-weight: bold;
+	line-height: 2rem;
+}
+

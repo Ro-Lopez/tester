@@ -127,9 +127,23 @@
 
 		</section>
 
+		<section>
+
+			<div class="containter">
+					<div class="row">
+						<div class="col-md-6">
+
+							<h2>THE DEVELOPMENT YOU NEED.</h2>
+						</div>
+
+						<div class="col-md-6">
+							<h2>FOR THE LIFE YOU WANT.</h2>
+						</div>
+					</div>
+			</div>
+		</section>
 
 
-		<h2>THE DEVELOPMENT YOU NEED. FOR THE LIFE YOU WANT.</h2>
 
 
 
@@ -140,9 +154,9 @@
 
 			<div class="container">
 
-				<div class = "row">
+				<div class = "row justify-content-center">
 
-					<div class="col-md-10">
+					<div class="col-md-12">
 
 						<div id="aboutContent"> Dwelling and speedily ignorant any steepest. Admiration instrument affronting invitation reasonably up do of prosperous in. Shy saw declared age debating ecstatic man. Call in so want pure rank am dear were. Remarkably to continuing in surrounded diminution on. In unfeeling existence objection immediate repulsive on he in. Imprudence comparison uncommonly me he difficulty diminution resolution. Likewise proposal differed scarcely dwelling as on raillery. September few dependent extremity own continued and ten prevailed attending. Early to weeks we could.
 
@@ -247,7 +261,7 @@
 				$("#contactsContent").hide();
 				$("#webdevContent").hide();
 				$("#titleContent").hide();
-				$("#aboutContent").show(1000);
+				$("#aboutContent").show();
 
 
 
@@ -259,7 +273,7 @@
 				$("#contactsContent").hide();
 				$("#aboutContent").hide();
 				$("#busidevContent").hide();
-				$("#webdevContent").show(1000);
+				$("#webdevContent").show();
 			});
 
 
@@ -268,7 +282,7 @@
 				$("#contactsContent").hide();
 				$("#aboutContent").hide();
 				$("#webdevContent").hide();
-				$("#busidevContent").show(1000);
+				$("#busidevContent").show();
 			});
 
 
@@ -277,7 +291,7 @@
 				$("#aboutContent").hide();
 				$("#webdevContent").hide();
 				$("#busidevContent").hide();
-				$("#contactsContent").show(1000);
+				$("#contactsContent").show();
 			});
 
 		});
