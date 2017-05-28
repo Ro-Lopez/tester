@@ -29,6 +29,7 @@ h2 {
 	color: darkblue;
 	text-align: center;
 	font-weight: bold;
+	padding-top: 3em;
 
 
 }
@@ -75,4 +76,26 @@ h2 {
 	background: none;
 	color: darkblue;
 	outline: none;
+}
+
+
+
+#bg {
+	padding-top: 10em;
+	padding-bottom: 50em;
+	position: fixed;
+	top: 5em;
+	left: 0;
+	/* Preserve aspet ratio */
+
+	min-width: 100%;
+	min-height: 100%;
+}
+
+
+#aboutContent {
+	padding-top: 5em;
+
+
+
 }

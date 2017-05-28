@@ -44,6 +44,11 @@
 	<body>
 
 
+
+<!--		<div><img src="office_beach%20(2).jpg" id="bg" alt=""></div>-->
+
+
+
 		<section>
 
 			<nav class="navbar navbar-default">
@@ -122,8 +127,13 @@
 
 		</section>
 
-		<h2>THE DEVELOPMENT YOU NEED. </h2>
-		<h2>	FOR THE LIFE YOU WANT.</h2>
+
+
+		<h2>THE DEVELOPMENT YOU NEED. FOR THE LIFE YOU WANT.</h2>
+
+
+
+
 
 
 		<SECTION>
@@ -132,48 +142,61 @@
 
 				<div class = "row">
 
-					<div class="col-md-6">
+					<div class="col-md-10">
 
-						<div id="aboutContent"> These are facts about me </div>
+						<div id="aboutContent"> Dwelling and speedily ignorant any steepest. Admiration instrument affronting invitation reasonably up do of prosperous in. Shy saw declared age debating ecstatic man. Call in so want pure rank am dear were. Remarkably to continuing in surrounded diminution on. In unfeeling existence objection immediate repulsive on he in. Imprudence comparison uncommonly me he difficulty diminution resolution. Likewise proposal differed scarcely dwelling as on raillery. September few dependent extremity own continued and ten prevailed attending. Early to weeks we could.
+
+						</div>
+
+
+						<div id="webdevContent"> <P>Web development and Business Specialist - LRL LLC  - ABQ, NM, April 2017 - Present
+									Developed 3 custom projects and learned 7 languages in 10 weeks
+									Collaborated with numerous founders and doctors within multiple diverse corporate structures
+									Implemented front and back end web development for an online presence
+									Advanced managerial, marketing, accounting, and communication techniques
+									Easy adaptable to new environments and markets
+									</P>
+									<p>Backend: mySQL | PHP storm | Composer Package Manager | Object Oriented | Unit Testing | Data Design
+										Frontend: Angular 4 | Javascript | UI/UX | CSS3 | HTML5 | npm package manager | JSON APIs | Dev Tools | Bootstrap | Restful | Wordpress
+										Security: jQuery | CSRF/XSRF | XSS | Hashing | Salting | Cookie Security | Session Security
+										Other: Github | Git | Asana | Quickbooks | Windows OS | Mac OS | Dentrix | EasyDental</p>
+						</div>
+
+
+
+
+
+
+							<div id="busidevContent"> <p>Office Manager - Comfort Kids - ABQ, NM, Nov 2012 to Dec 2016
+								Collected over $2,000,000 in insurance money
+								Hired during start-up to fully structure the business from the ground up
+								Provided excellent customer service and effectively de-escalating customer specific concerns
+								Responsibilities in marketing, sales, accounting, IT, and employment</p>
+								<p>Collected over $600,000 within my first 3 months in insurance money
+								Revamped the business flow and systems to make company cash positive
+								Oversaw 20+ employees while being responsible for all day to day operations
+								Maintained accurate and detailed financial reports, payroll, and scheduling.
+								</p>
+							</div>
+
+
+							<div id="contactsContent"> <p>(505) 850 - 8260 | RoLopez.email@gmail.com
+									www.LLdev.biz | https://github.com/Ro-Lopez | https://linkedin.com/in/rorolopez </p>
+
+							</div>
 
 					</div>
-
-					<div class="col-md-6">
-
-							<div id="webdevContent"> Web development stuff </div>
-
-					</div>
-
 				</div>
-
 			</div>
+
+
+
 
 		</SECTION>
 
 
-		<SECTION>
 
-			<div class="container">
 
-					<div class="row">
-
-						<div class="col-md-6">
-
-							<div id="busidevContent"> Let me start your business </div>
-
-						</div>
-
-						<div class="col-md-6">
-
-							<div id="contactsContent"> These are my contacts </div>
-
-						</div>
-
-					</div>
-
-			</div>
-
-		</SECTION>
 
 
 
