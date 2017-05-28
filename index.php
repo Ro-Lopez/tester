@@ -129,7 +129,7 @@
 
 		<section>
 
-			<div class="containter">
+			<div class="container">
 					<div class="row">
 						<div class="col-md-6">
 
@@ -154,7 +154,7 @@
 
 			<div class="container">
 
-				<div class = "row justify-content-center">
+				<div class = "row">
 
 					<div class="col-md-12">
 

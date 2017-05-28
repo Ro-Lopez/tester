@@ -4,14 +4,15 @@
 
 
 .col-md-6 {
-	text-align: center;
+	text-align: right;
+
+}
+
+.col-md-6:nth-child(2) {
+	text-align: left;
 }
 
 
-.col-4 {
-	padding-right: 5em;
-
-}
 
 
 
