@@ -5,12 +5,20 @@
 
 .col-md-6 {
 	text-align: right;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3LlMdZ8lHkqwazlxaD_slDAF6i_Q_kDDcvf3amW3-NUdqD4PkVw");
+	background-size: 100% 100%;
+	filter: grayscale(100%);
 
 }
 
 .col-md-6:nth-child(2) {
 	text-align: left;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf7cILIMnGxed4UoqT5qlaNgQw3bXd9ptkPwAdskRDyzBq0kWh");
+	background-size: 100% 100%;
+	filter: grayscale(100%);
 }
+
+
 
 
 
@@ -27,11 +35,12 @@ h1 {
 
 h2 {
 
-	color: darkblue;
+	color: white;
 
 	font-weight: bold;
-	padding-top: 2em;
-	padding-bottom: 2em;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	font-size: 5.5rem;
 
 
 }
