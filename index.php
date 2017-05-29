@@ -138,7 +138,8 @@
 
 					<div class="col-md-12">
 
-						<div id="aboutContent"> Hello, my name is Robbie! I am a Business Consultant, specializing in Web Development. I am offering my services and experiences to put my clients in a position of success. I graduated with a couple degrees in Entrepreneurship and Business in 2016, and also a degree in Full Stack Web Development in 2017. When I am not developing, creating, and learning; you can find me enjoying the outdoors with my two rottweilers, engaging in a martial arts or fitness activity, playing my favorite video game World of Warcraft, or just catching up on the latest episode of Game of Thrones. I can't wait to work woth you!
+						<div id="aboutContent">
+							Hello, my name is Robbie! I am a Business Consultant, specializing in Web Development. I am offering my services and experiences to put my clients in a position of success. I 								graduated with a couple degrees in Entrepreneurship and Business in 2016, and also a degree in Full Stack Web Development in 2017. When I am not developing, creating, and learning; you can find 								me enjoying the outdoors with my two rottweilers, engaging in a martial arts or fitness activity, playing my favorite video game World of Warcraft, or just catching up on the latest episode of 								Game of Thrones. I can't wait to work woth you!
 
 						</div>
 
@@ -148,8 +149,8 @@
 
 							<p>Backend: mySQL | PHP storm | Composer Package Manager | Object Oriented | Unit Testing | Data Design</p>
 							<p>Frontend: Angular 4 | Javascript | UI/UX | CSS3 | HTML5 | npm package manager | JSON APIs | Dev Tools | Bootstrap | Restful | Wordpress</p>
-							<p>	Security: jQuery | CSRF/XSRF | XSS | Hashing | Salting | Cookie Security | Session Security</p>
-									<p>	Other: Github | Git | Asana | Quickbooks | Windows OS | Mac OS </p>
+							<p>Security: jQuery | CSRF/XSRF | XSS | Hashing | Salting | Cookie Security | Session Security</p>
+							<p>Other: Github | Git | Asana | Quickbooks | Windows OS | Mac OS </p>
 						</div>
 
 
@@ -158,11 +159,23 @@
 
 
 							<div id="busidevContent"> <h3>Business Development</h3>
+								<p>Collected millions of dollars in insurance money.</p>
+								<p>Revamped the business flow and systems to make company cash positive</p>
+								<p>Hired during start-up to fully structure the business from the ground up</p>
+								<p>Collaborated with numerous founders and doctors within multiple diverse corporate structures </p>
+								<p>Advanced managerial, marketing, accounting, and communication techniques</p>
+								<p>Easy adaptable to new environments and markets </p>
+								<P>Responsibilities in marketing, sales, accounting, IT, and employment</P>
+								<p>Renovated over a hundred residential and corporate properties within New Mexico</p>
 							</div>
 
 
-							<div id="contactsContent"> <p>(505) 850 - 8260 | RoLopez.email@gmail.com
-									www.LLdev.biz | https://github.com/Ro-Lopez | https://linkedin.com/in/rorolopez </p>
+						<div id="contactsContent">
+
+							<p>RoLopez.email@gmail.com</p>
+							<p>https://github.com/Ro-Lopez </p>
+							<p>https://linkedin.com/in/rorolopez </p>
+							<p>https://twitter.com/Ro_Ro_Lo</p>
 							</div>
 						</div>
 					</div>
