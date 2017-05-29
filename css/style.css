@@ -1,26 +1,29 @@
 
 
-
+.col-12 {
+	background: grey;
+}
 
 
 .col-md-6 {
 	text-align: right;
 	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3LlMdZ8lHkqwazlxaD_slDAF6i_Q_kDDcvf3amW3-NUdqD4PkVw");
 	background-size: 100% 100%;
-	filter: grayscale(100%);
+	filter: grayscale(50%);
 
 }
 
 .col-md-6:nth-child(2) {
 	text-align: left;
-	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf7cILIMnGxed4UoqT5qlaNgQw3bXd9ptkPwAdskRDyzBq0kWh");
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtRgS5GDhjBNjzpl6jDeRrf1N7AJefwRi_m_RcFAp3J2eOl31Utw");
 	background-size: 100% 100%;
-	filter: grayscale(100%);
+	filter: grayscale(50%);
 }
 
 
-
-
+.container {
+	padding-top: 7rem;
+}
 
 
 
@@ -29,8 +32,8 @@ h1 {
 
 	font-size: 7em;
 	margin: auto;
-	padding-left: 1.5em;
-	color: darkblue;
+	padding-left: 3rem;
+	color: blue;
 }
 
 h2 {
@@ -47,46 +50,50 @@ h2 {
 
 #navbar{
 
-	padding-top: 2.95em;
+	padding-top: 3rem;
 
 }
 
 
 #aboutButt {
 	text-align: center;
-	padding-right: 10em;
+	padding-right: 2em;
 	border: none;
 	background: none;
-	color: darkblue;
+	color: blue;
 	outline: none;
+	font-size: 3rem;
 
 }
 
 
 #contactButt {
-	padding-right: 10em;
+	padding-right: 2em;
 	border: none;
 	background: none;
-	color: darkblue;
+	color: blue;
 	outline: none;
+	font-size: 3rem;
 }
 
 
 #busidevButt {
-	padding-right: 10em;
+	padding-right: 2em;
 	border: none;
 	background: none;
-	color: darkblue;
+	color: blue;
 	outline: none;
+	font-size: 3rem;
 }
 
 
 #webdevButt {
-	padding-right: 12em;
+	padding-right: 3rem;
 	border: none;
 	background: none;
-	color: darkblue;
+	color: blue;
 	outline: none;
+	font-size: 3rem;
 }
 
 
@@ -106,8 +113,8 @@ h2 {
 
 #aboutContent {
 	padding: 4rem 4rem 4rem 4rem;
-	border: 3px solid darkblue;
-	color: darkblue;
+	border: 3px solid blue;
+	color: blue;
 	font-weight: bold;
 	line-height: 2rem;
 
@@ -116,7 +123,7 @@ h2 {
 #webdevContent {
 	padding: 4rem 4rem 4rem 4rem;
 	border: 3px solid darkblue;
-	color: darkblue;
+	color: blue;
 	font-weight: bold;
 	line-height: 2rem;
 
@@ -125,7 +132,7 @@ h2 {
 #busidevContent {
 	padding: 4rem 4rem 4rem 4rem;
 	border: 3px solid darkblue;
-	color: darkblue;
+	color: blue;
 	font-weight: bold;
 	line-height: 2rem;
 }
@@ -134,8 +141,11 @@ h2 {
 #contactsContent {
 	padding: 4rem 4rem 4rem 4rem;
 	border: 3px solid darkblue;
-	color: darkblue;
+	color: 	blue;
 	font-weight: bold;
 	line-height: 2rem;
 }
+
+
+
 
