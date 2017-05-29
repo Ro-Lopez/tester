@@ -95,7 +95,7 @@
 												</li>
 
 												<li>
-													<button id="contactButt">Contact Me</button>
+													<button id="webdevButt">Web Development</button>
 												</li>
 
 												<li>
@@ -103,7 +103,7 @@
 												</li>
 
 												<li>
-													<button id="webdevButt">Web Development</button>
+													<button id="contactButt">Contact Me</button>
 												</li>
 
 
@@ -127,26 +127,6 @@
 
 		</section>
 
-		<section>
-
-			<div class="container">
-					<div class="row">
-						<div class="col-md-6">
-
-							<h2>THE DEVELOPMENT YOU NEED.</h2>
-						</div>
-
-						<div class="col-md-6">
-							<h2>FOR THE LIFE YOU WANT.</h2>
-						</div>
-					</div>
-			</div>
-		</section>
-
-
-
-
-
 
 
 
@@ -158,10 +138,9 @@
 
 					<div class="col-md-12">
 
-						<div id="aboutContent"> Dwelling and speedily ignorant any steepest. Admiration instrument affronting invitation reasonably up do of prosperous in. Shy saw declared age debating ecstatic man. Call in so want pure rank am dear were. Remarkably to continuing in surrounded diminution on. In unfeeling existence objection immediate repulsive on he in. Imprudence comparison uncommonly me he difficulty diminution resolution. Likewise proposal differed scarcely dwelling as on raillery. September few dependent extremity own continued and ten prevailed attending. Early to weeks we could.
+						<div id="aboutContent"> Hello, my name is Robbie! I am a business consultant, specializing in web development. I am offering my services and experiences to put my clients in a position of success. I graduated with a couple degrees in Entrepreneurship and Business in 2016, and also a degree in full stack web development in 2017. When I am not developing, creating, and learning; you can find me enjoying the outdoors with my two rottweilers, engaging in a martial arts or fitness activity, playing my favorite video game World of Warcraft, or just catching up on the latest episode of Game of Thrones.
 
 						</div>
-
 
 						<div id="webdevContent"> <P>Web development and Business Specialist - LRL LLC  - ABQ, NM, April 2017 - Present
 									Developed 3 custom projects and learned 7 languages in 10 weeks
@@ -170,10 +149,10 @@
 									Advanced managerial, marketing, accounting, and communication techniques
 									Easy adaptable to new environments and markets
 									</P>
-									<p>Backend: mySQL | PHP storm | Composer Package Manager | Object Oriented | Unit Testing | Data Design
-										Frontend: Angular 4 | Javascript | UI/UX | CSS3 | HTML5 | npm package manager | JSON APIs | Dev Tools | Bootstrap | Restful | Wordpress
-										Security: jQuery | CSRF/XSRF | XSS | Hashing | Salting | Cookie Security | Session Security
-										Other: Github | Git | Asana | Quickbooks | Windows OS | Mac OS | Dentrix | EasyDental</p>
+							<p>Backend: mySQL | PHP storm | Composer Package Manager | Object Oriented | Unit Testing | Data Design</p>
+							<p>Frontend: Angular 4 | Javascript | UI/UX | CSS3 | HTML5 | npm package manager | JSON APIs | Dev Tools | Bootstrap | Restful | Wordpress</p>
+							<p>	Security: jQuery | CSRF/XSRF | XSS | Hashing | Salting | Cookie Security | Session Security</p>
+									<p>	Other: Github | Git | Asana | Quickbooks | Windows OS | Mac OS | Dentrix | EasyDental</p>
 						</div>
 
 
@@ -196,17 +175,39 @@
 
 							<div id="contactsContent"> <p>(505) 850 - 8260 | RoLopez.email@gmail.com
 									www.LLdev.biz | https://github.com/Ro-Lopez | https://linkedin.com/in/rorolopez </p>
-
 							</div>
-
+						</div>
 					</div>
 				</div>
-			</div>
 
 
 
 
 		</SECTION>
+
+
+
+		<section>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+
+						<h2>THE DEVELOPMENT YOU NEED.</h2>
+					</div>
+
+					<div class="col-md-6">
+						<h2>FOR THE LIFE YOU WANT.</h2>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+
+
+
 
 
 
@@ -261,7 +262,7 @@
 				$("#contactsContent").hide();
 				$("#webdevContent").hide();
 				$("#titleContent").hide();
-				$("#aboutContent").show();
+				$("#aboutContent").show(750);
 
 
 
@@ -273,7 +274,7 @@
 				$("#contactsContent").hide();
 				$("#aboutContent").hide();
 				$("#busidevContent").hide();
-				$("#webdevContent").show();
+				$("#webdevContent").show(750);
 			});
 
 
@@ -282,7 +283,7 @@
 				$("#contactsContent").hide();
 				$("#aboutContent").hide();
 				$("#webdevContent").hide();
-				$("#busidevContent").show();
+				$("#busidevContent").show(750);
 			});
 
 
@@ -291,7 +292,7 @@
 				$("#aboutContent").hide();
 				$("#webdevContent").hide();
 				$("#busidevContent").hide();
-				$("#contactsContent").show();
+				$("#contactsContent").show(750);
 			});
 
 		});

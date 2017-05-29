@@ -30,25 +30,30 @@
 
 
 .col-md-6 {
-	text-align: right;
+	text-align: center;
 	background-image: url("http://esq.h-cdn.co/assets/cm/15/05/980x490/54cb0d02a6129_-_10256001_10152063941956674_4116247399527307681_o.jpg");
 	background-size: 100% 100%;
 	filter: grayscale(10%);
+	border: .5rem solid blue;
 
 }
 
 .col-md-6:nth-child(2) {
-	text-align: left;
+	text-align: center;
 	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtRgS5GDhjBNjzpl6jDeRrf1N7AJefwRi_m_RcFAp3J2eOl31Utw");
 	background-size: 100% 100%;
 	filter: grayscale(10%);
+	border: .5rem solid blue;
 }
 
+
+#ccontainer {
+	padding-top: 7rem;
+}
 
 .container {
 	padding-top: 7rem;
 }
-
 
 
 
@@ -57,7 +62,7 @@ h1 {
 	font-size: 7em;
 	margin: auto;
 	padding-left: 3rem;
-	color: white;
+	color: blue;
 }
 
 h2 {
@@ -67,7 +72,7 @@ h2 {
 	font-weight: bold;
 	padding-top: 3rem;
 	padding-bottom: 3rem;
-	font-size: 5.5rem;
+	font-size: 5.25rem;
 
 
 }
@@ -84,7 +89,7 @@ h2 {
 	padding-right: 2em;
 	border: none;
 	background: none;
-	color: white;
+	color: blue;
 	outline: none;
 	font-size: 3rem;
 
@@ -95,7 +100,7 @@ h2 {
 	padding-right: 2em;
 	border: none;
 	background: none;
-	color: white;
+	color: blue;
 	outline: none;
 	font-size: 3rem;
 }
@@ -105,8 +110,8 @@ h2 {
 	padding-right: 2em;
 	border: none;
 	background: none;
-	color: white;
-	outline: none;
+	color: blue;
+	outline: blue;
 	font-size: 3rem;
 }
 
@@ -115,7 +120,7 @@ h2 {
 	padding-right: 3rem;
 	border: none;
 	background: none;
-	color: white;
+	color: blue;
 	outline: none;
 	font-size: 3rem;
 }
@@ -126,7 +131,7 @@ h2 {
 
 #aboutContent {
 	padding: 4rem 4rem 4rem 4rem;
-	border: 3px solid black;
+	border: 3px solid blue;
 	color: white;
 	font-weight: bold;
 	line-height: 2rem;
@@ -137,7 +142,7 @@ h2 {
 
 #webdevContent {
 	padding: 4rem 4rem 4rem 4rem;
-	border: 3px solid black;
+	border: 3px solid blue;
 	color: white;
 	font-weight: bold;
 	line-height: 2rem;
@@ -147,7 +152,7 @@ h2 {
 
 #busidevContent {
 	padding: 4rem 4rem 4rem 4rem;
-	border: 3px solid black;
+	border: 3px solid blue;
 	color: white;
 	font-weight: bold;
 	line-height: 2rem;
@@ -157,7 +162,7 @@ h2 {
 
 #contactsContent {
 	padding: 4rem 4rem 4rem 4rem;
-	border: 3px solid black;
+	border: 3px solid blue;
 	color: 	white;
 	font-weight: bold;
 	line-height: 2rem;
