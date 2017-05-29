@@ -95,11 +95,11 @@
 												</li>
 
 												<li>
-													<button id="webdevButt">Web Development</button>
+													<button id="busidevButt">Business Development</button>
 												</li>
 
 												<li>
-													<button id="busidevButt">Business Development</button>
+													<button id="webdevButt">Web Development</button>
 												</li>
 
 												<li>
@@ -138,21 +138,18 @@
 
 					<div class="col-md-12">
 
-						<div id="aboutContent"> Hello, my name is Robbie! I am a business consultant, specializing in web development. I am offering my services and experiences to put my clients in a position of success. I graduated with a couple degrees in Entrepreneurship and Business in 2016, and also a degree in full stack web development in 2017. When I am not developing, creating, and learning; you can find me enjoying the outdoors with my two rottweilers, engaging in a martial arts or fitness activity, playing my favorite video game World of Warcraft, or just catching up on the latest episode of Game of Thrones.
+						<div id="aboutContent"> Hello, my name is Robbie! I am a Business Consultant, specializing in Web Development. I am offering my services and experiences to put my clients in a position of success. I graduated with a couple degrees in Entrepreneurship and Business in 2016, and also a degree in Full Stack Web Development in 2017. When I am not developing, creating, and learning; you can find me enjoying the outdoors with my two rottweilers, engaging in a martial arts or fitness activity, playing my favorite video game World of Warcraft, or just catching up on the latest episode of Game of Thrones. I can't wait to work woth you!
 
 						</div>
 
-						<div id="webdevContent"> <P>Web development and Business Specialist - LRL LLC  - ABQ, NM, April 2017 - Present
-									Developed 3 custom projects and learned 7 languages in 10 weeks
-									Collaborated with numerous founders and doctors within multiple diverse corporate structures
-									Implemented front and back end web development for an online presence
-									Advanced managerial, marketing, accounting, and communication techniques
-									Easy adaptable to new environments and markets
-									</P>
+						<div id="webdevContent"> <h3>About me:</h3>
+
+							<p>Implemented front and back end web development for an online presence</p>
+
 							<p>Backend: mySQL | PHP storm | Composer Package Manager | Object Oriented | Unit Testing | Data Design</p>
 							<p>Frontend: Angular 4 | Javascript | UI/UX | CSS3 | HTML5 | npm package manager | JSON APIs | Dev Tools | Bootstrap | Restful | Wordpress</p>
 							<p>	Security: jQuery | CSRF/XSRF | XSS | Hashing | Salting | Cookie Security | Session Security</p>
-									<p>	Other: Github | Git | Asana | Quickbooks | Windows OS | Mac OS | Dentrix | EasyDental</p>
+									<p>	Other: Github | Git | Asana | Quickbooks | Windows OS | Mac OS </p>
 						</div>
 
 
@@ -160,16 +157,7 @@
 
 
 
-							<div id="busidevContent"> <p>Office Manager - Comfort Kids - ABQ, NM, Nov 2012 to Dec 2016
-								Collected over $2,000,000 in insurance money
-								Hired during start-up to fully structure the business from the ground up
-								Provided excellent customer service and effectively de-escalating customer specific concerns
-								Responsibilities in marketing, sales, accounting, IT, and employment</p>
-								<p>Collected over $600,000 within my first 3 months in insurance money
-								Revamped the business flow and systems to make company cash positive
-								Oversaw 20+ employees while being responsible for all day to day operations
-								Maintained accurate and detailed financial reports, payroll, and scheduling.
-								</p>
+							<div id="busidevContent"> <h3>Business Development</h3>
 							</div>
 
 
