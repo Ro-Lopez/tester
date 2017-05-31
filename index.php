@@ -1,12 +1,16 @@
 <!doctype html>
 
+
 <html lang="en">
 
+
 	<head>
+
 
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
 
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -22,9 +26,6 @@
 
 
 
-
-
-
 		<!-- jQuery v3.0 -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js" type="text/javascript"></script>
 
@@ -32,35 +33,23 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 
-
-
 		<title>Testing Page</title>
 
+
 	</head>
-
-
 
 
 	<body>
 
 
-
 		<div><img src="images/busywork.jpg" id="bg" alt=""></div>
 
 
-
 		<section>
-
 			<nav class="navbar navbar-default navbar-fixed-top">
-
 				<div class="container-fluid">
-
 					<div class="row">
-
 						<div class="col-12">
-
-
-
 							<div class="navbar-header">
 								<h1>LLdev</h1>
 								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
@@ -70,26 +59,11 @@
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
 								</button>
-
 							</div>
 
 
-
-
-
-
-
-								<div class="collapse navbar-collapse" id="main-menu">
-
-
-
+							<div class="collapse navbar-collapse" id="main-menu">
 									<ul class="nav navbar-nav navbar-right" id="navbar">
-
-
-
-
-
-
 												<li>
 													<button id="aboutButt">About Me</button>
 												</li>
@@ -105,13 +79,8 @@
 												<li>
 													<button id="contactButt">Contact Me</button>
 												</li>
-
-
-
-
 									</ul>
 								</div>
-
 						</div>
 					</div>
 				</div>
@@ -119,49 +88,33 @@
 		</section>
 
 
-
-
-
-
-		<section id="onload">
-
+		r<section id="onload">
 			<div class="container">
-
 				<div class="row">
-
 					<div class="col-md-9">
-						<h2>The development you need</h2>
+						<h2>The Development You Need</h2>
 					</div>
 				</div><br><br>
 
-
-
 				<div class="row">
-
 					<div class="col-md-9 col-md-offset-3">
-						<h2>For the life you want</h2>
+						<h2>For The Life You Want</h2>
 					</div>
 				</div>
 			</div>
 		</section>
 
 
-
 		<SECTION>
-
 			<div class="container-fluid">
-
 				<div class = "row">
-
 					<div class="col-md-12">
-
-						<div id="aboutContent"> <h3>About me:</h3>
-							Hello, my name is Robbie! I am a Business Consultant, specializing in Web Development. I am offering my services and experiences to put my clients in a position of success. I 								graduated with a couple degrees in Entrepreneurship and Business in 2016, and also a degree in Full Stack Web Development in 2017. When I am not developing, creating, and learning; you can find 								me enjoying the outdoors with my two rottweilers, engaging in a martial arts or fitness activity, playing my favorite video game World of Warcraft, or just catching up on the latest episode of 								Game of Thrones. I can't wait to work with you!
-
+						<div id="aboutContent"> <h3>About Me:</h3>
+							<p>Hello, my name is Robbie!</p><p> I am a Business Consultant, specializing in Web Development. I am offering my services and experiences to put my clients in a position of success.</p> <p>I 								graduated with a couple degrees in Business and Entrepreneurship  in 2016, and also a degree in Full Stack Web Development in 2017. </p> <p>When I am not developing, creating, or learning; you
+									can find 								me enjoying the outdoors with my two rottweilers, engaging in a martial arts or fitness activity, playing my favorite video game World of Warcraft, or just 										catching up on the latest episode of 								Game of Thrones. <p>I can't wait to work with you! </p>
 						</div>
 
 						<div id="webdevContent"> <h3>Web Development:</h3>
-
 							<p>Implement front and back end web development for an online presence</p>
 							<p>Backend: mySQL | PHP storm | Composer Package Manager | Object Oriented | Unit Testing | Data Design</p>
 							<p>Frontend: Angular 4 | Javascript | UI/UX | CSS3 | HTML5 | npm package manager | JSON APIs | Dev Tools | Bootstrap | Restful | Wordpress</p>
@@ -169,12 +122,7 @@
 							<p>Other: Github | Git | Asana | Quickbooks | Windows OS | Mac OS </p>
 						</div>
 
-
-
-
-
-
-							<div id="busidevContent"> <h3>Business Development:</h3>
+						<div id="busidevContent"> <h3>Business Development:</h3>
 								<p>Collected millions of dollars in insurance money.</p>
 								<p>Revamped the business flow and systems to make company cash positive.</p>
 								<p>Hired on during start-up's to fully structure the business from the ground up.</p>
@@ -183,8 +131,7 @@
 								<P>Responsibilities in marketing, sales, accounting, IT, and employment.</P>
 								<p>Easy adaptable to new environments and markets. </p>
 								<p>Renovated over a hundred residential and corporate properties within New Mexico.</p>
-							</div>
-
+						</div>
 
 						<div id="contactsContent"> <h3>Contact Me:</h3>
 							<p>RoLopez.email@gmail.com</p>
@@ -195,66 +142,19 @@
 						</div>
 					</div>
 				</div>
-
-
-
-
 		</SECTION>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 	</body>
 
 
-
-
-
-
 	<script>
 
 		$(document).ready(function() {
-
 			$("#contactsContent").hide();
 			$("#busidevContent").hide();
 			$("#webdevContent").hide();
 			$("#aboutContent").hide();
-
-
 
 
 			$("#aboutButt").click(function(){
@@ -264,7 +164,6 @@
 				$("#titleContent").hide(500);
 				$("#onload").hide(2000);
 				$("#aboutContent").show(1000);
-
 			});
 
 
@@ -296,15 +195,10 @@
 				$("#onload").hide(2000);
 				$("#contactsContent").show(1000);
 			});
-
 		});
 
 
 	</script>
-
-
-
-
 
 
 </html>
