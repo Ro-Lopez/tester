@@ -51,7 +51,7 @@
 
 		<section>
 
-			<nav class="navbar navbar-default">
+			<nav class="navbar navbar-default navbar-fixed-top">
 
 				<div class="container-fluid">
 
@@ -71,7 +71,7 @@
 									<span class="icon-bar"></span>
 								</button>
 
-								</div>
+							</div>
 
 
 
@@ -110,43 +110,64 @@
 
 
 									</ul>
-
-
-
 								</div>
 
-							</div>
-
 						</div>
-
+					</div>
 				</div>
-
-
-
 			</nav>
-
 		</section>
 
 
 
 
-		<SECTION>
+
+
+		<section id="onload">
 
 			<div class="container">
+
+				<div class="row">
+
+					<div class="col-md-5">
+						<h2>THE DEVELOPMENT YOU NEED</h2>
+					</div>
+
+				<div class="row">
+					<div class="col-md-12"></div>
+				</div>
+
+
+				<div class="row"></div>
+
+					<div class="col-md-5">
+						<h2>FOR THE LIFE YOU WANT</h2>
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+
+
+		<SECTION>
+
+			<div class="container-fluid">
 
 				<div class = "row">
 
 					<div class="col-md-12">
 
-						<div id="aboutContent">
-							Hello, my name is Robbie! I am a Business Consultant, specializing in Web Development. I am offering my services and experiences to put my clients in a position of success. I 								graduated with a couple degrees in Entrepreneurship and Business in 2016, and also a degree in Full Stack Web Development in 2017. When I am not developing, creating, and learning; you can find 								me enjoying the outdoors with my two rottweilers, engaging in a martial arts or fitness activity, playing my favorite video game World of Warcraft, or just catching up on the latest episode of 								Game of Thrones. I can't wait to work woth you!
+						<div id="aboutContent"> <h3>About me:</h3>
+							Hello, my name is Robbie! I am a Business Consultant, specializing in Web Development. I am offering my services and experiences to put my clients in a position of success. I 								graduated with a couple degrees in Entrepreneurship and Business in 2016, and also a degree in Full Stack Web Development in 2017. When I am not developing, creating, and learning; you can find 								me enjoying the outdoors with my two rottweilers, engaging in a martial arts or fitness activity, playing my favorite video game World of Warcraft, or just catching up on the latest episode of 								Game of Thrones. I can't wait to work with you!
 
 						</div>
 
-						<div id="webdevContent"> <h3>About me:</h3>
+						<div id="webdevContent"> <h3>Web Development:</h3>
 
-							<p>Implemented front and back end web development for an online presence</p>
-
+							<p>Implement front and back end web development for an online presence</p>
 							<p>Backend: mySQL | PHP storm | Composer Package Manager | Object Oriented | Unit Testing | Data Design</p>
 							<p>Frontend: Angular 4 | Javascript | UI/UX | CSS3 | HTML5 | npm package manager | JSON APIs | Dev Tools | Bootstrap | Restful | Wordpress</p>
 							<p>Security: jQuery | CSRF/XSRF | XSS | Hashing | Salting | Cookie Security | Session Security</p>
@@ -158,20 +179,19 @@
 
 
 
-							<div id="busidevContent"> <h3>Business Development</h3>
+							<div id="busidevContent"> <h3>Business Development:</h3>
 								<p>Collected millions of dollars in insurance money.</p>
-								<p>Revamped the business flow and systems to make company cash positive</p>
-								<p>Hired during start-up to fully structure the business from the ground up</p>
-								<p>Collaborated with numerous founders and doctors within multiple diverse corporate structures </p>
-								<p>Advanced managerial, marketing, accounting, and communication techniques</p>
-								<p>Easy adaptable to new environments and markets </p>
-								<P>Responsibilities in marketing, sales, accounting, IT, and employment</P>
-								<p>Renovated over a hundred residential and corporate properties within New Mexico</p>
+								<p>Revamped the business flow and systems to make company cash positive.</p>
+								<p>Hired on during start-up's to fully structure the business from the ground up.</p>
+								<p>Collaborated with numerous founders and doctors within multiple diverse corporate structures. </p>
+								<p>Advanced managerial, marketing, accounting, and communication techniques.</p>
+								<P>Responsibilities in marketing, sales, accounting, IT, and employment.</P>
+								<p>Easy adaptable to new environments and markets. </p>
+								<p>Renovated over a hundred residential and corporate properties within New Mexico.</p>
 							</div>
 
 
-						<div id="contactsContent">
-
+						<div id="contactsContent"> <h3>Contact Me:</h3>
 							<p>RoLopez.email@gmail.com</p>
 							<p>https://github.com/Ro-Lopez </p>
 							<p>https://linkedin.com/in/rorolopez </p>
@@ -186,23 +206,6 @@
 
 		</SECTION>
 
-
-
-		<section>
-
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6">
-
-						<h2>THE DEVELOPMENT YOU NEED.</h2>
-					</div>
-
-					<div class="col-md-6">
-						<h2>FOR THE LIFE YOU WANT.</h2>
-					</div>
-				</div>
-			</div>
-		</section>
 
 
 
@@ -263,10 +266,8 @@
 				$("#contactsContent").hide();
 				$("#webdevContent").hide();
 				$("#titleContent").hide();
+				$("#onload").hide();
 				$("#aboutContent").show(750);
-
-
-
 			});
 
 
@@ -275,6 +276,7 @@
 				$("#contactsContent").hide();
 				$("#aboutContent").hide();
 				$("#busidevContent").hide();
+				$("#onload").hide();
 				$("#webdevContent").show(750);
 			});
 
@@ -284,6 +286,7 @@
 				$("#contactsContent").hide();
 				$("#aboutContent").hide();
 				$("#webdevContent").hide();
+				$("#onload").hide();
 				$("#busidevContent").show(750);
 			});
 
@@ -293,6 +296,7 @@
 				$("#aboutContent").hide();
 				$("#webdevContent").hide();
 				$("#busidevContent").hide();
+				$("#onload").hide();
 				$("#contactsContent").show(750);
 			});
 

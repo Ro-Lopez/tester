@@ -6,8 +6,9 @@
 	/*min-width: 100%;*/
 	/*min-height: 100%;*/
 /*}*/
-
-
+/*body {*/
+	/*background: #00E24F;*/
+/*}*/
 
 
 #bg {
@@ -20,31 +21,49 @@
 
 	min-width: 100%;
 	min-height: 100%;
-	filter: grayscale(100%);
+	/*filter: grayscale(100%);*/
+	filter: blur(.5rem);
 }
 
 .col-12 {
 	background: linear-gradient(45deg, rgba(87,87,87,1) 0%, rgba(99,99,99,1) 12%, rgba(115,115,115,1) 25%, rgba(79,79,79,1) 39%, rgba(48,48,48,1) 50%, rgba(0,0,0,1) 51%, rgba(20,20,20,1) 60%, rgba(89,89,89,1) 75%, rgba(31,31,31,1) 91%, rgba(20,20,20,1) 100%);
+	box-shadow: 10px 10px 5px #888888;
 
 }
 
 
-.col-md-6 {
+.col-md-12 {
+	padding-top: 7rem;
+
+}
+
+
+
+.col-md-5 {
 	text-align: center;
-	background-image: url("http://esq.h-cdn.co/assets/cm/15/05/980x490/54cb0d02a6129_-_10256001_10152063941956674_4116247399527307681_o.jpg");
-	background-size: 100% 100%;
-	filter: grayscale(10%);
-	border: .5rem solid blue;
+	/*background-image: url("http://esq.h-cdn.co/assets/cm/15/05/980x490/54cb0d02a6129_-_10256001_10152063941956674_4116247399527307681_o.jpg");*/
+	/*background-size: 100% 100%;*/
+	/*filter: grayscale(100%);*/
+	/*border: .5rem solid blue;*/
+	background: linear-gradient(45deg, rgba(87,87,87,1) 0%, rgba(99,99,99,1) 12%, rgba(115,115,115,1) 25%, rgba(79,79,79,1) 39%, rgba(48,48,48,1) 50%, rgba(0,0,0,1) 51%, rgba(20,20,20,1) 60%, rgba(89,89,89,1) 75%, rgba(31,31,31,1) 91%, rgba(20,20,20,1) 100%);
+	box-shadow: 10px 10px 5px #888888;
+
+
 
 }
 
 .col-md-6:nth-child(2) {
 	text-align: center;
-	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtRgS5GDhjBNjzpl6jDeRrf1N7AJefwRi_m_RcFAp3J2eOl31Utw");
-	background-size: 100% 100%;
-	filter: grayscale(10%);
-	border: .5rem solid blue;
+	/*background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtRgS5GDhjBNjzpl6jDeRrf1N7AJefwRi_m_RcFAp3J2eOl31Utw");*/
+	/*background-size: 100% 100%;*/
+	/*filter: grayscale(100%);*/
+	/*border: .5rem solid blue;*/
+	background: linear-gradient(45deg, rgba(87,87,87,1) 0%, rgba(99,99,99,1) 12%, rgba(115,115,115,1) 25%, rgba(79,79,79,1) 39%, rgba(48,48,48,1) 50%, rgba(0,0,0,1) 51%, rgba(20,20,20,1) 60%, rgba(89,89,89,1) 75%, rgba(31,31,31,1) 91%, rgba(20,20,20,1) 100%);
+	box-shadow: 10px 10px 5px #888888;
+
+
 }
+
 
 
 #ccontainer {
@@ -62,17 +81,19 @@ h1 {
 	font-size: 7em;
 	margin: auto;
 	padding-left: 3rem;
-	color: blue;
+	color: gold;
+
+
 }
 
 h2 {
 
-	color: white;
 
-	font-weight: bold;
+
 	padding-top: 3rem;
 	padding-bottom: 3rem;
-	font-size: 5.25rem;
+	font-size: 4rem;
+	color:gold;
 
 
 }
@@ -80,8 +101,8 @@ h2 {
 #navbar{
 
 	padding-top: 3rem;
-
 }
+
 
 
 #aboutButt {
@@ -89,9 +110,10 @@ h2 {
 	padding-right: 2em;
 	border: none;
 	background: none;
-	color: blue;
+	color: gold;
 	outline: none;
 	font-size: 3rem;
+
 
 }
 
@@ -100,7 +122,7 @@ h2 {
 	padding-right: 2em;
 	border: none;
 	background: none;
-	color: blue;
+	color: gold;
 	outline: none;
 	font-size: 3rem;
 }
@@ -110,7 +132,7 @@ h2 {
 	padding-right: 2em;
 	border: none;
 	background: none;
-	color: blue;
+	color: gold;
 	outline: blue;
 	font-size: 3rem;
 }
@@ -120,7 +142,7 @@ h2 {
 	padding-right: 3rem;
 	border: none;
 	background: none;
-	color: blue;
+	color: gold;
 	outline: none;
 	font-size: 3rem;
 }
@@ -131,44 +153,53 @@ h2 {
 
 #aboutContent {
 	padding: 4rem 4rem 4rem 4rem;
-	border: 3px solid blue;
+	/*border: 3px solid blue;*/
 	color: white;
 	font-weight: bold;
 	line-height: 2rem;
 	background: linear-gradient(45deg, rgba(87,87,87,1) 0%, rgba(99,99,99,1) 12%, rgba(115,115,115,1) 25%, rgba(79,79,79,1) 39%, rgba(48,48,48,1) 50%, rgba(0,0,0,1) 51%, rgba(20,20,20,1) 60%, rgba(89,89,89,1) 75%, rgba(31,31,31,1) 91%, rgba(20,20,20,1) 100%);
+	box-shadow: 10px 10px 5px #888888;
 
 
 }
 
 #webdevContent {
 	padding: 4rem 4rem 4rem 4rem;
-	border: 3px solid blue;
+	/*border: 3px solid blue;*/
 	color: white;
 	font-weight: bold;
 	line-height: 2rem;
 	background: linear-gradient(45deg, rgba(87,87,87,1) 0%, rgba(99,99,99,1) 12%, rgba(115,115,115,1) 25%, rgba(79,79,79,1) 39%, rgba(48,48,48,1) 50%, rgba(0,0,0,1) 51%, rgba(20,20,20,1) 60%, rgba(89,89,89,1) 75%, rgba(31,31,31,1) 91%, rgba(20,20,20,1) 100%);
+	box-shadow: 10px 10px 5px #888888;
 
 }
 
 #busidevContent {
 	padding: 4rem 4rem 4rem 4rem;
-	border: 3px solid blue;
+	/*border: 3px solid blue;*/
 	color: white;
 	font-weight: bold;
 	line-height: 2rem;
 	background: linear-gradient(45deg, rgba(87,87,87,1) 0%, rgba(99,99,99,1) 12%, rgba(115,115,115,1) 25%, rgba(79,79,79,1) 39%, rgba(48,48,48,1) 50%, rgba(0,0,0,1) 51%, rgba(20,20,20,1) 60%, rgba(89,89,89,1) 75%, rgba(31,31,31,1) 91%, rgba(20,20,20,1) 100%);
+	box-shadow: 10px 10px 5px #888888;
 }
 
 
 #contactsContent {
 	padding: 4rem 4rem 4rem 4rem;
-	border: 3px solid blue;
+	/*border: 3px solid blue;*/
 	color: 	white;
 	font-weight: bold;
 	line-height: 2rem;
 	background: linear-gradient(45deg, rgba(87,87,87,1) 0%, rgba(99,99,99,1) 12%, rgba(115,115,115,1) 25%, rgba(79,79,79,1) 39%, rgba(48,48,48,1) 50%, rgba(0,0,0,1) 51%, rgba(20,20,20,1) 60%, rgba(89,89,89,1) 75%, rgba(31,31,31,1) 91%, rgba(20,20,20,1) 100%);
+	box-shadow: 10px 10px 5px #888888;
 }
 
 
+section:nth-child(2) {
+	padding-top: 20rem;
+}
 
-
+h3 {
+	color: gold;
+}
