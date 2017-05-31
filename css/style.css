@@ -39,7 +39,7 @@
 
 
 
-.col-md-5 {
+.col-md-9 {
 	text-align: center;
 	/*background-image: url("http://esq.h-cdn.co/assets/cm/15/05/980x490/54cb0d02a6129_-_10256001_10152063941956674_4116247399527307681_o.jpg");*/
 	/*background-size: 100% 100%;*/
@@ -52,16 +52,14 @@
 
 }
 
-.col-md-6:nth-child(2) {
-	text-align: center;
+.col-md-11:nth-child(2) {
+	text-align: right;
 	/*background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtRgS5GDhjBNjzpl6jDeRrf1N7AJefwRi_m_RcFAp3J2eOl31Utw");*/
 	/*background-size: 100% 100%;*/
 	/*filter: grayscale(100%);*/
 	/*border: .5rem solid blue;*/
 	background: linear-gradient(45deg, rgba(87,87,87,1) 0%, rgba(99,99,99,1) 12%, rgba(115,115,115,1) 25%, rgba(79,79,79,1) 39%, rgba(48,48,48,1) 50%, rgba(0,0,0,1) 51%, rgba(20,20,20,1) 60%, rgba(89,89,89,1) 75%, rgba(31,31,31,1) 91%, rgba(20,20,20,1) 100%);
 	box-shadow: 10px 10px 5px #888888;
-
-
 }
 
 
@@ -94,6 +92,7 @@ h2 {
 	padding-bottom: 3rem;
 	font-size: 4rem;
 	color:gold;
+
 
 
 }

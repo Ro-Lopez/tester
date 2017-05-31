@@ -129,25 +129,22 @@
 
 				<div class="row">
 
-					<div class="col-md-5">
+					<div class="col-md-9">
 						<h2>THE DEVELOPMENT YOU NEED</h2>
 					</div>
+				</div><br><br>
+
+
+
+
 
 				<div class="row">
-					<div class="col-md-12"></div>
-				</div>
 
-
-				<div class="row"></div>
-
-					<div class="col-md-5">
+					<div class="col-md-9 col-md-offset-3">
 						<h2>FOR THE LIFE YOU WANT</h2>
 					</div>
-
 				</div>
-
 			</div>
-
 		</section>
 
 
