@@ -130,18 +130,16 @@
 				<div class="row">
 
 					<div class="col-md-9">
-						<h2>THE DEVELOPMENT YOU NEED</h2>
+						<h2>The development you need.</h2>
 					</div>
 				</div><br><br>
-
-
 
 
 
 				<div class="row">
 
 					<div class="col-md-9 col-md-offset-3">
-						<h2>FOR THE LIFE YOU WANT</h2>
+						<h2>For the life you want.</h2>
 					</div>
 				</div>
 			</div>
@@ -259,42 +257,42 @@
 
 
 			$("#aboutButt").click(function(){
-				$("#busidevContent").hide();
-				$("#contactsContent").hide();
-				$("#webdevContent").hide();
-				$("#titleContent").hide();
-				$("#onload").hide();
-				$("#aboutContent").show(750);
+				$("#busidevContent").hide(500);
+				$("#contactsContent").hide(500);
+				$("#webdevContent").hide(500);
+				$("#titleContent").hide(500);
+				$("#onload").hide(2000);
+				$("#aboutContent").show(1000);
 			});
 
 
 			$("#webdevButt").click(function(){
-				$("#titleContent").hide();
-				$("#contactsContent").hide();
-				$("#aboutContent").hide();
-				$("#busidevContent").hide();
-				$("#onload").hide();
-				$("#webdevContent").show(750);
+				$("#titleContent").hide(500);
+				$("#contactsContent").hide(500);
+				$("#aboutContent").hide(500);
+				$("#busidevContent").hide(500);
+				$("#onload").hide(2000);
+				$("#webdevContent").show(1000);
 			});
 
 
 			$("#busidevButt").click(function(){
-				$("#titleContent").hide();
-				$("#contactsContent").hide();
-				$("#aboutContent").hide();
-				$("#webdevContent").hide();
-				$("#onload").hide();
-				$("#busidevContent").show(750);
+				$("#titleContent").hide(500);
+				$("#contactsContent").hide(500);
+				$("#aboutContent").hide(500);
+				$("#webdevContent").hide(500);
+				$("#onload").hide(2000);
+				$("#busidevContent").show(1000);
 			});
 
 
 			$("#contactButt").click(function(){
-				$("#titleContent").hide();
-				$("#aboutContent").hide();
-				$("#webdevContent").hide();
-				$("#busidevContent").hide();
-				$("#onload").hide();
-				$("#contactsContent").show(750);
+				$("#titleContent").hide(500);
+				$("#aboutContent").hide(500);
+				$("#webdevContent").hide(500);
+				$("#busidevContent").hide(500);
+				$("#onload").hide(2000);
+				$("#contactsContent").show(1000);
 			});
 
 		});
