@@ -130,7 +130,7 @@
 				<div class="row">
 
 					<div class="col-md-9">
-						<h2>The development you need.</h2>
+						<h2>The development you need</h2>
 					</div>
 				</div><br><br>
 
@@ -139,7 +139,7 @@
 				<div class="row">
 
 					<div class="col-md-9 col-md-offset-3">
-						<h2>For the life you want.</h2>
+						<h2>For the life you want</h2>
 					</div>
 				</div>
 			</div>
@@ -256,6 +256,7 @@
 
 
 
+
 			$("#aboutButt").click(function(){
 				$("#busidevContent").hide(500);
 				$("#contactsContent").hide(500);
@@ -263,6 +264,7 @@
 				$("#titleContent").hide(500);
 				$("#onload").hide(2000);
 				$("#aboutContent").show(1000);
+
 			});
 
 
