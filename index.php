@@ -127,6 +127,8 @@
 									can find 								me enjoying the outdoors with my two rottweilers, engaging in a martial arts or fitness activity, playing my favorite video game World of Warcraft, or just 										catching up on the latest episode of 								Game of Thrones. <p>I can't wait to work with you! </p>
 						</div>
 
+						<div
+
 						<div id="webdevContent"> <h3>Web Development:</h3>
 							<p>Implement front and back end web development for an online presence</p>
 							<p>Backend: mySQL | PHP storm | Composer Package Manager | Object Oriented | Unit Testing | Data Design</p>
@@ -134,6 +136,8 @@
 							<p>Security: jQuery | CSRF/XSRF | XSS | Hashing | Salting | Cookie Security | Session Security</p>
 							<p>Other: Github | Git | Asana  | Windows OS | Mac OS </p>
 						</div>
+
+
 
 						<div id="busidevContent"> <h3>Business Development:</h3>
 								<p>Collected millions of dollars in insurance money.</p>
@@ -144,6 +148,13 @@
 								<P>Background in Quickbooks, marketing, sales, accounting, and IT.</P>
 								<p>Easy adaptable to new environments and markets. </p>
 								<p>Renovated over a hundred residential and corporate properties within New Mexico.</p>
+						</div><br><br>
+
+						<div id="busidevContentb"> <h3>Past Experiences:</h3>
+							<p>words. words. words.</p>
+
+
+
 						</div>
 
 						<div id="contactsContent"> <h3>Contact Me:</h3>
@@ -177,6 +188,10 @@
 										<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
 									</div>
 								</div>
+
+
+
+
 								<div class="form-group">
 									<label for="message">Message <span class="text-danger">*</span></label>
 									<div class="input-group">
@@ -215,6 +230,7 @@
 		$(document).ready(function() {
 			$("#contactsContent").hide();
 			$("#busidevContent").hide();
+			$("#busidevContentb").hide();
 			$("#webdevContent").hide();
 			$("#aboutContent").hide();
 
@@ -246,6 +262,7 @@
 				$("#webdevContent").hide(500);
 				$("#onload").hide(2000);
 				$("#busidevContent").show(1000);
+				$("#busidevContentb").show(1000);
 			});
 
 
