@@ -29,6 +29,7 @@ $(document).ready(function(){
 		messages: {
 			name: {
 				required: "Please enter your name."
+
 			},
 			email: {
 				email: "Please enter a valid email address.",
