@@ -8,4 +8,6 @@
 /public_html/dist
 /public_html/index.php
 /npm-debug.log
+
+# ignore mail config data
 **/php/mail-config.php
