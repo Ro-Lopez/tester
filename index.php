@@ -155,8 +155,8 @@
 								<p>Renovated over a hundred residential and corporate properties within New Mexico.</p>
 						</div><br><br>
 
-						<div id="busidevContentb"> <h3>Past Experiences:</h3>
-							<p>words. words. words.</p>
+<!--						<div id="busidevContentb"> <h3>Past Experiences:</h3>-->
+<!--							<p>words. words. words.</p>-->
 
 
 
