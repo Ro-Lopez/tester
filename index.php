@@ -132,7 +132,7 @@
 									can find 								me enjoying the outdoors with my two rottweilers, engaging in a martial arts or fitness activity, playing my favorite video game World of Warcraft, or just 										catching up on the latest episode of 								Game of Thrones. <p>I can't wait to work with you! </p>
 						</div>
 
-						<div
+
 
 						<div id="webdevContent"> <h3>Web Development:</h3>
 							<p>Advanced marketing technique through Web Development.</p>
@@ -140,6 +140,11 @@
 							<p>Frontend: Angular 4 | Javascript | UI/UX | CSS3 | HTML5 | npm package manager | JSON APIs | Dev Tools | Bootstrap | Restful | Wordpress</p>
 							<p>Security: jQuery | CSRF/XSRF | XSS | Hashing | Salting | Cookie Security | Session Security</p>
 							<p>Other: Github | Git | Asana  | Windows OS | Mac OS </p>
+						</div><br><br><br><br>
+
+
+						<div id="webdevContentb"><h3>Web Development Projects:</h3>
+
 						</div>
 
 
@@ -159,7 +164,7 @@
 
 						<div id="busidevContentb"> <h3>Recent Experience:</h3>
 							<div class="container-fluid">
-								<div class="row">
+								<div class="row-justify-content-center">
 									<div class="col-md-2">
 										<img class="busiImg" src="images/smk.jpg">
 									</div>
@@ -250,8 +255,7 @@
 
 
 				</div>
-		</SECTION>
-
+		</section>
 
 	</body>
 
@@ -263,6 +267,7 @@
 			$("#busidevContent").hide();
 			$("#busidevContentb").hide();
 			$("#webdevContent").hide();
+			$("#webdevContentb").hide();
 			$("#aboutContent").hide();
 
 
@@ -271,6 +276,7 @@
 				$("#busidevContentb").hide(500);
 				$("#contactsContent").hide(500);
 				$("#webdevContent").hide(500);
+				$("#webdevContentb").hide(500);
 				$("#titleContent").hide(500);
 				$("#onload").hide(2000);
 				$("#aboutContent").show(1000);
@@ -285,6 +291,7 @@
 				$("#busidevContentb").hide(500);
 				$("#onload").hide(2000);
 				$("#webdevContent").show(1000);
+				$("#webdevContentb").show(1000);
 			});
 
 
@@ -293,6 +300,7 @@
 				$("#contactsContent").hide(500);
 				$("#aboutContent").hide(500);
 				$("#webdevContent").hide(500);
+				$("#webdevContentb").hide(500);
 				$("#onload").hide(2000);
 				$("#busidevContent").show(1000);
 				$("#busidevContentb").show(1000);
@@ -303,6 +311,7 @@
 				$("#titleContent").hide(500);
 				$("#aboutContent").hide(500);
 				$("#webdevContent").hide(500);
+				$("#webdevContentb").hide(500);
 				$("#busidevContent").hide(500);
 				$("#busidevContentb").hide(500);
 				$("#onload").hide(2000);
