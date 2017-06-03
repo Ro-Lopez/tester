@@ -135,7 +135,7 @@
 						<div
 
 						<div id="webdevContent"> <h3>Web Development:</h3>
-							<p>Implement front and back end web development for an online presence</p>
+							<p>Advanced marketing technique through Web Development.</p>
 							<p>Backend: mySQL | PHP storm | Composer Package Manager | Object Oriented | Unit Testing | Data Design</p>
 							<p>Frontend: Angular 4 | Javascript | UI/UX | CSS3 | HTML5 | npm package manager | JSON APIs | Dev Tools | Bootstrap | Restful | Wordpress</p>
 							<p>Security: jQuery | CSRF/XSRF | XSS | Hashing | Salting | Cookie Security | Session Security</p>
@@ -148,19 +148,88 @@
 								<p>Collected millions of dollars in insurance money.</p>
 								<p>Revamped the business flow and systems to make multiple companies cash positive.</p>
 								<p>Hired on during start-up's to fully structure a business from the ground up.</p>
+								<p>Renovated over a hundred residential and corporate properties.</p>
 								<p>Collaborated with numerous founders and doctors within multiple diverse corporate structures. </p>
 								<p>Advanced managerial, employment, and communication techniques.</p>
-								<P>Background in Quickbooks, marketing, sales, accounting, and IT.</P>
+								<P>Background in marketing, sales, accounting, IT, and Quickbooks.</P>
 								<p>Easy adaptable to new environments and markets. </p>
-								<p>Renovated over a hundred residential and corporate properties within New Mexico.</p>
+
 						</div><br><br>
 
-<!--						<div id="busidevContentb"> <h3>Past Experiences:</h3>-->
-<!--							<p>words. words. words.</p>-->
+						<div id="busidevContentb"> <h3>Past Experiences:</h3>
+							<section>
+								<div class="container">
+									<div class="row">
+										<div class="col-md-3 text-center">
+											<!-- icon -->
+											<span class="fa-stack fa-5x">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-beer fa-stack-1x fa-inverse"></i>
+							</span>
+
+											<!-- panel -->
+											<div class="panel panel-default">
+												<div class="panel-body">
+													<h3>Humblebrag</h3>
+													<p>Selvage typewriter forage, craft beer vape glossier gastropub 3 wolf moon intelligentsia.</p>
+												</div>
+											</div>
+										</div><!--/.col-md-3 -->
+
+										<div class="col-md-3 text-center">
+											<!-- icon -->
+											<span class="fa-stack fa-5x">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-beer fa-stack-1x fa-inverse"></i>
+							</span>
+
+											<!-- panel -->
+											<div class="panel panel-default">
+												<div class="panel-body">
+													<h3>Humblebrag</h3>
+													<p>Selvage typewriter forage, craft beer vape glossier gastropub 3 wolf moon intelligentsia.</p>
+												</div>
+											</div>
+										</div><!--/.col-md-3 -->
+
+										<div class="col-md-3 text-center">
+											<!-- icon -->
+											<span class="fa-stack fa-5x">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-beer fa-stack-1x fa-inverse"></i>
+							</span>
+
+											<!-- panel -->
+											<div class="panel panel-default">
+												<div class="panel-body">
+													<h3>Humblebrag</h3>
+													<p>Selvage typewriter forage, craft beer vape glossier gastropub 3 wolf moon intelligentsia.</p>
+												</div>
+											</div>
+										</div><!--/.col-md-3 -->
+
+										<div class="col-md-3 text-center">
+											<!-- icon -->
+											<span class="fa-stack fa-5x">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-beer fa-stack-1x fa-inverse"></i>
+							</span>
+
+											<!-- panel -->
+											<div class="panel panel-default">
+												<div class="panel-body">
+													<h3>Humblebrag</h3>
+													<p>Selvage typewriter forage, craft beer vape glossier gastropub 3 wolf moon intelligentsia.</p>
+												</div>
+											</div>
+										</div><!--/.col-md-3 -->
+									</div><!--/.row-->
+								</div><!--/.container-->
+							</section>
 
 
 
-<!--						</div>-->
+						</div>
 
 						<div id="contactsContent"> <h3>Contact Me:</h3>
 
@@ -241,6 +310,7 @@
 
 			$("#aboutButt").click(function(){
 				$("#busidevContent").hide(500);
+				$("#busidevContentb").hide(500);
 				$("#contactsContent").hide(500);
 				$("#webdevContent").hide(500);
 				$("#titleContent").hide(500);
@@ -254,6 +324,7 @@
 				$("#contactsContent").hide(500);
 				$("#aboutContent").hide(500);
 				$("#busidevContent").hide(500);
+				$("#busidevContentb").hide(500);
 				$("#onload").hide(2000);
 				$("#webdevContent").show(1000);
 			});
@@ -275,6 +346,7 @@
 				$("#aboutContent").hide(500);
 				$("#webdevContent").hide(500);
 				$("#busidevContent").hide(500);
+				$("#busidevContentb").hide(500);
 				$("#onload").hide(2000);
 				$("#contactsContent").show(1000);
 			});

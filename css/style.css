@@ -112,9 +112,15 @@ h2 {
 	color: gold;
 	outline: none;
 	font-size: 2rem;
-
-
 }
+
+#aboutButt:focus {
+	color:lightskyblue;
+}
+
+
+
+
 
 
 #contactButt {
@@ -124,6 +130,10 @@ h2 {
 	color: gold;
 	outline: none;
 	font-size: 2rem;
+}
+
+#contactButt:focus {
+	color:lightskyblue;
 }
 
 
@@ -136,6 +146,11 @@ h2 {
 	font-size: 2rem;
 }
 
+#busidevButt:focus {
+	color:lightskyblue;
+}
+
+
 
 #webdevButt {
 	padding-right: 3rem;
@@ -146,6 +161,9 @@ h2 {
 	font-size: 2rem;
 }
 
+#webdevButt:focus {
+	color:lightskyblue;
+}
 
 
 
