@@ -160,27 +160,27 @@
 							<div class="container-fluid">
 								<div class="row">
 									<div class="col-md-2">
-										<img class="img-circle" src="kitten.jpg">
+										<img class="img-circle" src="images/kitten.jpg">
 									</div>
 
 									<div class="col-md-2">
-										<img class="img-circle" src="kitten.jpg">
+										<img class="img-circle" src="images/kitten.jpg">
 									</div>
 
 									<div class="col-md-2">
-										<img class="img-circle" src="kitten.jpg">
+										<img class="img-circle" src="images/kitten.jpg">
 									</div>
 
 									<div class="col-md-2">
-										<img class="img-circle" src="kitten.jpg">
+										<img class="img-circle" src="images/kitten.jpg">
 									</div>
 
 									<div class="col-md-2">
-										<img class="img-circle" src="kitten.jpg">
+										<img class="img-circle" src="images/kitten.jpg">
 									</div>
 
 									<div class="col-md-2">
-										<img class="img-circle" src="kitten.jpg">
+										<img class="img-circle" src="images/kitten.jpg">
 									</div>
 
 
