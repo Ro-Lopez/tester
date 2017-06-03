@@ -192,7 +192,7 @@ h2 {
 }
 
 #busidevContent {
-	padding: 4rem 4rem 4rem 4rem;
+	padding: .3rem 5rem 1rem 5rem;
 	/*border: 3px solid blue;*/
 	color: white;
 	font-weight: bold;
@@ -203,7 +203,7 @@ h2 {
 
 
 #busidevContentb {
-	padding: 4rem 4rem 4rem 4rem;
+	padding: .3rem 5rem 1rem 5rem;
 	/*border: 3px solid blue;*/
 	color: white;
 	font-weight: bold;
@@ -233,8 +233,10 @@ h3 {
 	color: gold;
 }
 
-.img-circle {
-	border-radius: 50%;
-	width: 15rem;
+.busiImg {
+
+	width: 20rem;
+	height: 13rem;
+
 
 }

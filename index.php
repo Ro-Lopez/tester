@@ -150,37 +150,38 @@
 								<p>Hired on during start-up's to fully structure a business from the ground up.</p>
 								<p>Renovated over a hundred residential and corporate properties.</p>
 								<p>Collaborated with numerous founders and doctors within multiple diverse corporate structures. </p>
+								<p>Corporate, LLC, and Small Business Experience.</p>
 								<p>Advanced managerial, employment, and communication techniques.</p>
 								<P>Background in marketing, sales, accounting, IT, and Quickbooks.</P>
 								<p>Easy adaptable to new environments and markets. </p>
 
-						</div><br><br>
+						</div><br><br><br><br>
 
-						<div id="busidevContentb"> <h3>Past Experiences:</h3>
+						<div id="busidevContentb"> <h3>Recent Experience:</h3>
 							<div class="container-fluid">
 								<div class="row">
 									<div class="col-md-2">
-										<img class="img-circle" src="images/kitten.jpg">
+										<img class="busiImg" src="images/smk.jpg">
 									</div>
 
 									<div class="col-md-2">
-										<img class="img-circle" src="images/kitten.jpg">
+										<img class="busiImg" src="images/rt66.png">
 									</div>
 
 									<div class="col-md-2">
-										<img class="img-circle" src="images/kitten.jpg">
+										<img class="busiImg" src="images/cd.png">
 									</div>
 
 									<div class="col-md-2">
-										<img class="img-circle" src="images/kitten.jpg">
+										<img class="busiImg" src="images/ckids.jpg">
 									</div>
 
 									<div class="col-md-2">
-										<img class="img-circle" src="images/kitten.jpg">
+										<img class="busiImg" src="images/kitten.jpg">
 									</div>
 
 									<div class="col-md-2">
-										<img class="img-circle" src="images/kitten.jpg">
+										<img class="busiImg" src="images/cutco.png">
 									</div>
 
 
