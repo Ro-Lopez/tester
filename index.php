@@ -160,7 +160,7 @@
 
 
 
-						</div>
+<!--						</div>-->
 
 						<div id="contactsContent"> <h3>Contact Me:</h3>
 
