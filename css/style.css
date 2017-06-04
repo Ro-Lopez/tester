@@ -69,9 +69,10 @@
 	padding-top: 7rem;
 }
 
-.container {
-	padding-top: 10rem;
+#onload {
+	padding-top: 5rem;
 }
+
 
 /*.container-fluid {*/
 	/*padding-top: 25rem;*/
@@ -99,11 +100,6 @@ h2 {
 
 
 }
-
-/*#navbar{*/
-
-	/*padding-top: 4rem;*/
-/*}*/
 
 
 
@@ -282,3 +278,24 @@ h3 {
 
 /*}*/
 
+
+@media only screen and (min-width: 768px) {
+
+		#onload {
+			padding-top: 1rem;
+		}
+
+
+		.container {
+			padding-top: 10rem;
+		}
+
+		em {
+			font-size: 7rem;
+		}
+
+		.nav.navbar-nav.navbar-right {
+			padding-top: 3.5rem;
+		}
+
+}
