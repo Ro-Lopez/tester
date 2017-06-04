@@ -259,15 +259,28 @@
 				</div>
 		</section>
 
-<!--		<section>-->
-<!--			<div id="something">-->
-<!--				<div id="footer">Footer</div>-->
-<!--			</div>-->
-<!---->
-<!---->
-<!---->
-<!---->
-<!--		</section>-->
+		<section>
+			<div id="something">
+				<div id="footer">
+
+
+						<a href="https://github.com/" target="_blank"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>
+
+						<a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+
+						<a href="https://www.linkedin.com/in/" target="_blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
+
+						<a href="https://github.com/" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+
+
+
+
+
+			</div>
+			</div>
+
+
+		</section>
 
 	</body>
 
