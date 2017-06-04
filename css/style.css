@@ -77,10 +77,9 @@
 	/*padding-top: 25rem;*/
 /*}*/
 
+em {
 
-h1 {
-
-	font-size: 7em;
+	font-size: 4rem;
 	margin: auto;
 	padding-left: 3rem;
 	color: gold;
@@ -101,10 +100,10 @@ h2 {
 
 }
 
-#navbar{
+/*#navbar{*/
 
-	padding-top: 4rem;
-}
+	/*padding-top: 4rem;*/
+/*}*/
 
 
 
@@ -175,7 +174,7 @@ h2 {
 
 
 #aboutContent {
-	padding: .3rem 5rem 1rem 5rem;
+	padding: .3rem 4rem .3rem 4rem;
 	margin-top: 18rem;
 	/*border: 3px solid blue;*/
 	color: white;
@@ -189,7 +188,7 @@ h2 {
 
 #webdevContent {
 	margin-top: 20rem;
-	padding: .3rem 5rem 1rem 5rem;
+	padding: .3rem 4rem .3rem 4rem;
 	/*border: 3px solid blue;*/
 	color: white;
 	font-weight: bold;
@@ -200,7 +199,7 @@ h2 {
 }
 
 #webdevContentb {
-	padding: .3rem 5rem 1rem 5rem;
+	padding: .3rem 4rem .3rem 4rem;
 	/*border: 3px solid blue;*/
 	color: white;
 	font-weight: bold;
@@ -211,7 +210,7 @@ h2 {
 }
 
 #busidevContent {
-	padding: .3rem 5rem 1rem 5rem;
+	padding: .3rem 4rem .3rem 4rem;
 	margin-top: 11rem;
 	/*border: 3px solid blue;*/
 	color: white;
@@ -223,7 +222,7 @@ h2 {
 
 
 #busidevContentb {
-	padding: .3rem 5rem 1rem 5rem;
+	padding: .3rem 4rem .3rem 4rem;
 	/*border: 3px solid blue;*/
 	color: white;
 	font-weight: bold;
@@ -235,7 +234,7 @@ h2 {
 
 
 #contactsContent {
-	padding: .3rem 5rem .3rem 5rem;
+	padding: .3rem 4rem .3rem 4rem;
 	margin-top: 3rem;
 	/*border: 3px solid blue;*/
 	color: 	white;
@@ -258,7 +257,7 @@ h3 {
 
 .busiImg {
 
-	width: 20rem;
+	width: 15rem;
 	height: 13rem;
 	align-content: center;
 	padding-bottom: 2rem;
@@ -267,4 +266,19 @@ h3 {
 .col-md-2 {
 	text-align: center;
 }
+
+
+/*#footer {*/
+
+	/*bottom: 0px;*/
+	/*position:fixed;*/
+	/*height:50px;*/
+	/*left: 0px;*/
+	/*right:0px;*/
+	/*margin-bottom:0px;*/
+	/*background-color: black;*/
+	/*color: white;*/
+	/*text-align: center;*/
+
+/*}*/
 

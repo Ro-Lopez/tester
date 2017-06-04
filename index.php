@@ -70,7 +70,7 @@
 					<div class="row">
 						<div class="col-12">
 							<div class="navbar-header">
-								<h1>LLdev</h1>
+								<em>LLdev</em>
 								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
 									<span class="sr-only">Toggle navigation</span>
 									<span class="icon-bar"></span>
@@ -256,6 +256,16 @@
 
 				</div>
 		</section>
+
+<!--		<section>-->
+<!--			<div id="something">-->
+<!--				<div id="footer">Footer</div>-->
+<!--			</div>-->
+<!---->
+<!---->
+<!---->
+<!---->
+<!--		</section>-->
 
 	</body>
 
