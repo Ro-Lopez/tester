@@ -272,12 +272,8 @@
 
 						<a href="https://github.com/" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
 
-
-
-
-
-			</div>
-			</div>
+				</div>
+				</div>
 
 
 		</section>
