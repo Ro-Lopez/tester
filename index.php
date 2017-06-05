@@ -194,7 +194,33 @@
 							</div>
 						</div>
 
-						<div id="contactsContent"> <h3>Contact Me:</h3>
+
+						<div id="contactsContentb">	<h3>Social Networks:</h3>
+
+							<div class="container-fluid">
+								<div class="row">
+
+
+
+
+
+									<div class="col-md-3 col-md-offset-3">
+										<a href="https://twitter.com/" target="twitter"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+									</div>
+
+									<div class="col-md-3">
+										<a href="https://www.linkedin.com/in/" target="linkedin"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
+									</div>
+
+									<div class="col-md-3">
+										<a href="https://github.com/" target="github"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+						<div id="contactsContent"> <h3>Email Me:</h3>
 
 							<!-- BEGIN CONTACT FORM -->
 							<form id="contact-form" method="POST" action="php/mailer.php">
@@ -254,29 +280,39 @@
 							</div>
 						</div>
 					</div>
-
-
 				</div>
 		</section>
 
-		<section>
-			<div id="something">
-				<div id="footer">
 
-
-						<a href="https://github.com/" target="email"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>
-
-						<a href="https://twitter.com/" target="twitter"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
-
-						<a href="https://www.linkedin.com/in/" target="linkedin"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
-
-						<a href="https://github.com/" target="github"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
-
-				</div>
-				</div>
-
-
-		</section>
+<!---->
+<!--		<section>-->
+<!---->
+<!---->
+<!--				<footer class="footer">-->
+<!--					<div class="container-fluid">-->
+<!--						<div class="row-justify-content-center">-->
+<!---->
+<!--							<div class="col-md-3">-->
+<!--								<a href="https://github.com/" target="email"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>-->
+<!--							</div>-->
+<!---->
+<!---->
+<!--							<div class="col-md-3">-->
+<!--								<a href="https://twitter.com/" target="twitter"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>-->
+<!--							</div>-->
+<!---->
+<!--							<div class="col-md-3">-->
+<!--								<a href="https://www.linkedin.com/in/" target="linkedin"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>-->
+<!--							</div>-->
+<!---->
+<!--							<div class="col-md-3">-->
+<!--								<a href="https://github.com/" target="github"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>-->
+<!--							</div>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--				</footer>-->
+<!---->
+<!--		</section>-->
 
 	</body>
 
