@@ -264,13 +264,13 @@
 				<div id="footer">
 
 
-						<a href="https://github.com/" target="_blank"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>
+						<a href="https://github.com/" target="email"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>
 
-						<a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+						<a href="https://twitter.com/" target="twitter"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
 
-						<a href="https://www.linkedin.com/in/" target="_blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
+						<a href="https://www.linkedin.com/in/" target="linkedin"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
 
-						<a href="https://github.com/" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+						<a href="https://github.com/" target="github"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
 
 				</div>
 				</div>
