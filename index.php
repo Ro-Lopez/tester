@@ -49,9 +49,6 @@
 		<script src="js/javascript.js"></script>
 
 
-
-
-
 		<title>Testing Page</title>
 
 
@@ -193,31 +190,24 @@
 										<img class="busiImg" src="images/cutco.png">
 									</div>
 
-
 								</div>
 							</div>
 						</div>
 
 
 						<div id="contactsContent"> <h3>Social Networks:</h3>
-
-
 							<div class="container-fluid">
 								<div class="row">
 
-
-
-
-
-									<div class="col-md-3 col-md-offset-2">
+									<div class="col-xs-3 col-md-offset-2">
 										<a href="https://twitter.com/Ro_Ro_Lo" target="twitter"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
 									</div>
 
-									<div class="col-md-3">
+									<div class="col-xs-3">
 										<a href="https://www.linkedin.com/in/roblopez/" target="linkedin"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
 									</div>
 
-									<div class="col-md-3">
+									<div class="col-xs-3">
 										<a href="https://github.com/Ro-Lopez" target="github"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
 									</div>
 
@@ -288,9 +278,24 @@
 
 
 
-			</div>
+
 		</section>
 
+	</body>
+
+
+	<script>
+
+
+	</script>
+
+
+</html>
+
+
+
+
+<!--THE BONE YARD-->
 
 <!---->
 <!--		<section>-->
@@ -322,13 +327,3 @@
 <!---->
 <!--		</section>-->
 
-	</body>
-
-
-	<script>
-
-
-	</script>
-
-
-</html>
