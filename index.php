@@ -107,19 +107,21 @@
 
 
 		<section id="onload">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-9">
-						<h2>The Development You Need</h2>
-					</div>
-				</div><br><br>
 
-				<div class="row">
-					<div class="col-md-9 col-md-offset-3">
-						<h2>For The Life You Want</h2>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-9">
+							<h2>The Development You Need</h2>
+						</div>
+					</div>
+					<div class="break"></div>
+					<div class="row">
+						<div class="col-md-9 col-md-offset-3">
+							<h2>For The Life You Want</h2>
+						</div>
 					</div>
 				</div>
-			</div>
+
 		</section>
 
 
@@ -136,13 +138,15 @@
 
 						<div id="webdevContent"> <h3>Web Development:</h3>
 							<p>Advanced marketing technique through Web Development.</p>
+							<p>Custom design for each sepcific project.</p>
+
 							<p>Backend: mySQL | PHP storm | Composer Package Manager | Object Oriented | Unit Testing | Data Design</p>
 							<p>Frontend: Angular 4 | Javascript | UI/UX | CSS3 | HTML5 | npm package manager | JSON APIs | Dev Tools | Bootstrap | Restful | Wordpress</p>
 							<p>Security: jQuery | CSRF/XSRF | XSS | Hashing | Salting | Cookie Security | Session Security</p>
 							<p>Other: Github | Git | Asana  | Windows OS | Mac OS </p>
-						</div><br><br><br><br>
+						</div><br>
 
-
+						<div class="break2"></div>
 						<div id="webdevContentb"><h3>Web Development Projects:</h3>
 
 						</div>
@@ -160,8 +164,8 @@
 								<P>Background in marketing, sales, accounting, IT, and Quickbooks.</P>
 								<p>Easy adaptable to new environments and markets. </p>
 
-						</div><br><br><br><br>
-
+						</div><br>
+						<div class="break2"></div>
 						<div id="busidevContentb"> <h3>Recent Experience:</h3>
 							<div class="container-fluid">
 								<div class="row-justify-content-center">
@@ -204,16 +208,16 @@
 
 
 
-									<div class="col-md-3 col-md-offset-3">
-										<a href="https://twitter.com/" target="twitter"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+									<div class="col-md-3 col-md-offset-2">
+										<a href="https://twitter.com/Ro_Ro_Lo" target="twitter"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
 									</div>
 
 									<div class="col-md-3">
-										<a href="https://www.linkedin.com/in/" target="linkedin"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
+										<a href="https://www.linkedin.com/in/roblopez/" target="linkedin"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
 									</div>
 
 									<div class="col-md-3">
-										<a href="https://github.com/" target="github"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+										<a href="https://github.com/Ro-Lopez" target="github"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
 									</div>
 
 								</div>
@@ -321,6 +325,7 @@
 
 		$(document).ready(function() {
 			$("#contactsContent").hide();
+			$("#contactsContentb").hide(500);
 			$("#busidevContent").hide();
 			$("#busidevContentb").hide();
 			$("#webdevContent").hide();
@@ -332,6 +337,7 @@
 				$("#busidevContent").hide(500);
 				$("#busidevContentb").hide(500);
 				$("#contactsContent").hide(500);
+				$("#contactsContentb").hide(500);
 				$("#webdevContent").hide(500);
 				$("#webdevContentb").hide(500);
 				$("#titleContent").hide(500);
@@ -343,6 +349,7 @@
 			$("#webdevButt").click(function(){
 				$("#titleContent").hide(500);
 				$("#contactsContent").hide(500);
+				$("#contactsContentb").hide(500);
 				$("#aboutContent").hide(500);
 				$("#busidevContent").hide(500);
 				$("#busidevContentb").hide(500);
@@ -355,6 +362,7 @@
 			$("#busidevButt").click(function(){
 				$("#titleContent").hide(500);
 				$("#contactsContent").hide(500);
+				$("#contactsContentb").hide(500);
 				$("#aboutContent").hide(500);
 				$("#webdevContent").hide(500);
 				$("#webdevContentb").hide(500);
@@ -373,6 +381,7 @@
 				$("#busidevContentb").hide(500);
 				$("#onload").hide(2000);
 				$("#contactsContent").show(1000);
+				$("#contactsContentb").show(1000);
 			});
 		});
 
