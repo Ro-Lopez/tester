@@ -46,7 +46,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 
-
+		<script src="js/javascript.js"></script>
 
 
 
@@ -199,7 +199,8 @@
 						</div>
 
 
-						<div id="contactsContentb">	<h3>Social Networks:</h3>
+						<div id="contactsContent"> <h3>Social Networks:</h3>
+
 
 							<div class="container-fluid">
 								<div class="row">
@@ -222,9 +223,8 @@
 
 								</div>
 							</div>
-						</div>
 
-						<div id="contactsContent"> <h3>Email Me:</h3>
+							<h3>Email Me:</h3>
 
 							<!-- BEGIN CONTACT FORM -->
 							<form id="contact-form" method="POST" action="php/mailer.php">
@@ -285,6 +285,10 @@
 						</div>
 					</div>
 				</div>
+
+
+
+			</div>
 		</section>
 
 
@@ -322,68 +326,6 @@
 
 
 	<script>
-
-		$(document).ready(function() {
-			$("#contactsContent").hide();
-			$("#contactsContentb").hide(500);
-			$("#busidevContent").hide();
-			$("#busidevContentb").hide();
-			$("#webdevContent").hide();
-			$("#webdevContentb").hide();
-			$("#aboutContent").hide();
-
-
-			$("#aboutButt").click(function(){
-				$("#busidevContent").hide(500);
-				$("#busidevContentb").hide(500);
-				$("#contactsContent").hide(500);
-				$("#contactsContentb").hide(500);
-				$("#webdevContent").hide(500);
-				$("#webdevContentb").hide(500);
-				$("#titleContent").hide(500);
-				$("#onload").hide(2000);
-				$("#aboutContent").show(1000);
-			});
-
-
-			$("#webdevButt").click(function(){
-				$("#titleContent").hide(500);
-				$("#contactsContent").hide(500);
-				$("#contactsContentb").hide(500);
-				$("#aboutContent").hide(500);
-				$("#busidevContent").hide(500);
-				$("#busidevContentb").hide(500);
-				$("#onload").hide(2000);
-				$("#webdevContent").show(1000);
-				$("#webdevContentb").show(1000);
-			});
-
-
-			$("#busidevButt").click(function(){
-				$("#titleContent").hide(500);
-				$("#contactsContent").hide(500);
-				$("#contactsContentb").hide(500);
-				$("#aboutContent").hide(500);
-				$("#webdevContent").hide(500);
-				$("#webdevContentb").hide(500);
-				$("#onload").hide(2000);
-				$("#busidevContent").show(1000);
-				$("#busidevContentb").show(1000);
-			});
-
-
-			$("#contactButt").click(function(){
-				$("#titleContent").hide(500);
-				$("#aboutContent").hide(500);
-				$("#webdevContent").hide(500);
-				$("#webdevContentb").hide(500);
-				$("#busidevContent").hide(500);
-				$("#busidevContentb").hide(500);
-				$("#onload").hide(2000);
-				$("#contactsContent").show(1000);
-				$("#contactsContentb").show(1000);
-			});
-		});
 
 
 	</script>
