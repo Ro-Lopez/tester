@@ -308,7 +308,7 @@ a {
 		line-height: 2rem;
 		background: linear-gradient(45deg, rgba(87,87,87,1) 0%, rgba(99,99,99,1) 12%, rgba(115,115,115,1) 25%, rgba(79,79,79,1) 39%, rgba(48,48,48,1) 50%, rgba(0,0,0,1) 51%, rgba(20,20,20,1) 60%, rgba(89,89,89,1) 75%, rgba(31,31,31,1) 91%, rgba(20,20,20,1) 100%);
 		box-shadow: 10px 10px 5px #888888;
-		margin-bottom: 8rem;
+		margin-bottom: 10rem;
 	}
 }
 

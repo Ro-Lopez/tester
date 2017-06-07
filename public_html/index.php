@@ -39,8 +39,6 @@
 		<!-- Your JavaScript Form Validator -->
 		<script src="js/form-validate.js"></script>
 
-		<!-- Google reCAPTCHA -->
-		<script src='https://www.google.com/recaptcha/api.js'></script>
 
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -48,8 +46,10 @@
 
 		<script src="js/javascript.js"></script>
 
+		<!-- Google reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 
-		<title>Testing Page</title>
+		<title>LL Dev</title>
 
 
 	</head>
@@ -115,7 +115,10 @@
 					<div class="row">
 						<div class="col-md-9 col-md-offset-3">
 							<h2>For The Life You Want</h2>
+
 						</div>
+
+
 					</div>
 				</div>
 
@@ -210,87 +213,88 @@
 									<div class="col-xs-3">
 										<a href="https://github.com/Ro-Lopez" target="github"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
 									</div>
-
 								</div>
 							</div>
 
+							<!--Begin Contact Form-->
 							<h3>Email Me:</h3>
-
-							<!-- BEGIN CONTACT FORM -->
-							<form id="contact-form" method="POST" action="php/mailer.php">
+							<form id="contact-form" action="php/mailer.php" method="post">
 								<div class="form-group">
-									<label for="name">Name</label>
+									<label for="name">Name <span class="text-danger">*</span></label>
 									<div class="input-group">
 										<div class="input-group-addon">
-											<i class="fa fa-user"></i>
+											<i class="fa fa-user" aria-hidden="true"></i>
 										</div>
-										<input class="form-control" type="text" name="name" id="name" placeholder="Your Name">
+										<input type="text" class="form-control" id="name" name="name" placeholder="Name">
 									</div>
 								</div>
 								<div class="form-group">
-									<label for="email">Email</label>
+									<label for="email">Email <span class="text-danger">*</span></label>
 									<div class="input-group">
 										<div class="input-group-addon">
-											<i class="fa fa-envelope"></i>
+											<i class="fa fa-envelope" aria-hidden="true"></i>
 										</div>
-										<input class="form-control" type="email" name="email" id="email" placeholder="Your Email">
+										<input type="email" class="form-control" id="email" name="email" placeholder="Email">
 									</div>
 								</div>
 								<div class="form-group">
 									<label for="subject">Subject</label>
 									<div class="input-group">
 										<div class="input-group-addon">
-											<i class="fa fa-pencil"></i>
+											<i class="fa fa-pencil" aria-hidden="true"></i>
 										</div>
-										<input class="form-control" type="text" name="subject" id="subject" placeholder="Subject">
+										<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
 									</div>
 								</div>
 								<div class="form-group">
-									<label for="message">Message</label>
+									<label for="message">Message <span class="text-danger">*</span></label>
 									<div class="input-group">
 										<div class="input-group-addon">
-											<i class="fa fa-comment"></i>
+											<i class="fa fa-comment" aria-hidden="true"></i>
 										</div>
-										<textarea rows="5" name="message" id="message" class="form-control" placeholder="Your Message (2000 charaters max)"></textarea>
+										<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message (2000 characters max)"></textarea>
 									</div>
 								</div>
 
-								<!-- Google reCAPTCHA-->
+								<!-- reCAPTCHA -->
 								<div class="g-recaptcha" data-sitekey="6LdF0iMUAAAAAL4NAq0zjr26SUZcktpRP4xhyuPd"></div>
 
-								<button class="btn btn-default" type="reset">Reset</button>
-								<button class="btn btn-info" type="submit">Submit</button>
+								<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+								<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
 							</form>
-							<!-- END CONTACT FORM-->
 
-						</div><!-- /.col-sm-6 -->
-					</div><!-- /.row -->
 
-					<!-- EMPTY FORM OUTPUT AREA -->
-					<div class="container">
-						<div class="row">
-							<div class="col-md-6">
-								<div id="output-area"></div>
+
+							<!--empty area for form error/success output-->
+							<div class="row">
+								<div class="col-xs-12">
+									<div id="output-area"></div>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-
-
-
-
 		</section>
-
 	</body>
 
 
-	<script>
-
-
-	</script>
 
 
 </html>
+
+
+
+
+<!--				data-sitekey="6LdF0iMUAAAAAL4NAq0zjr26SUZcktpRP4xhyuPd-->
+
+<!--					<!-- EMPTY FORM OUTPUT AREA -->
+<!--					<div class="container">-->
+<!--						<div class="row">-->
+<!--							<div class="col-md-6">-->
+<!--								<div id="output-area"></div>-->
+<!--							</div>-->
+<!--						</div>-->
+<!--					</div>-->
+
 
 
 
