@@ -197,9 +197,7 @@
 										<img class="busiImg" src="images/ckids.jpg">
 									</div>
 
-									<div class="col-md-2">
-										<img class="busiImg" src="images/kitten.jpg">
-									</div>
+
 
 									<div class="col-md-2">
 										<img class="busiImg" src="images/cutco.png">
